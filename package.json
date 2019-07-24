@@ -1,0 +1,24 @@
+{
+  "name": "pixelart",
+  "version": "1.0.0",
+  "description": "Using only a container tag, row tags, and column tags, recreate the image (plumber.jpeg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css": "node-sass scss -o css",
+    "css:watch": "node-sass scss -wo css --output-style expanded"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/segakazzz/pixelart.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/segakazzz/pixelart/issues"
+  },
+  "homepage": "https://github.com/segakazzz/pixelart#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  }
+}
